@@ -106,8 +106,6 @@ public class JobServiceImpl implements JobService {
 
     @Async
     void saveGeneratedStringToFile(List<String> generatedList, AddJobRequest addJobRequest, Job job) throws IOException {
-        System.out.println(generatedList.size());
-        System.out.println(addJobRequest.getExpectedStringNumber());
         for (int i = 0; i < addJobRequest.getExpectedStringNumber(); i++) {
                 FileWriter fileWriter = new FileWriter(job.getFileName(), true);
                 BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
