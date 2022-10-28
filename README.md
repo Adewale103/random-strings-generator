@@ -8,3 +8,7 @@ $ mvn spring-boot:run
 $ mvn test
 # Configurations
 Open the application.properties file and set your own configurations for the mongoDB database connection.
+
+![AddJob](https://raw.githubusercontent.com/Adewale103/random-strings-generator/main/post1.png)
+![GetNumberOfJobs](https://raw.githubusercontent.com/Adewale103/random-strings-generator/main/post2.png)
+![GetCompletedJob](https://raw.githubusercontent.com/Adewale103/random-strings-generator/main/post3.png)
